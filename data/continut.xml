@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eshop> 
+
+    <title>eShop</title> 
+
+    <header> 
+        <nav>
+           <link>Home</link>
+           <link>Shop</link>
+           <link>Cart</link>
+        </nav>
+    </header> 
+
+    <news> 
+        <title>Offers:</title>
+        <img>brave_pb4zHo19mO.png</img>
+    </news> 
+
+    <products> 
+        <product> 
+            <productName> Product name </productName>
+            <productPrice> Price </productPrice>
+            <productImg> https://placehold.co/300x300 </productImg>
+            <productBtn> Add to cart </productBtn>
+            <productID> 1 </productID>
+        </product>
+        
+        <product> 
+            <productName> Product name </productName>
+            <productPrice> Price </productPrice>
+            <productImg> https://placehold.co/300x300 </productImg>
+            <productBtn> Add to cart </productBtn>
+            <productID> 2 </productID>
+        </product>
+        
+        <product> 
+            <productName> Product name </productName>
+            <productPrice> Price </productPrice>
+            <productImg> https://placehold.co/300x300 </productImg>
+            <productBtn> Add to cart </productBtn>
+            <productID> 3 </productID>
+        </product>
+    </products> 
+
+    <footer> 
+        <copyright>2025 all legal rights are reserved</copyright>
+    </footer> 
+</eshop>
