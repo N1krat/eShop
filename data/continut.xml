@@ -42,6 +42,17 @@
         </product>
     </products> 
 
+    <aboutUs> 
+        <title>About Us</title>
+        <p> Welcome to <b>eShop</b>, the best place for <small>everyday shopping</small> </p>
+        <p> We started in 2020<sup>th</sup> and continue to grow every year. Our first location was in sector 3<sub>B</sub>. </p>
+        <p> Our motto used to be <del>"Expensive but rare"</del> and now we say <ins>"Cheap and everywhere"</ins>. </p>
+        <p> A customer once said: <q>This shop really changed how I buy online!</q> </p>
+        <blockquote> We believe shopping should be fast, simple, and enjoyable for everyone. </blockquote>
+        <p> Example of code we use for discounts: <code>if(price &gt; 100) { discount = 0.2; }</code> </p>
+        <pre> function addToCart(product) { console.log("Added:", product); } </pre>
+    </aboutUs> 
+
     <footer> 
         <copyright>2025 all legal rights are reserved</copyright>
     </footer> 
