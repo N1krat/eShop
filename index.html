@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Bogdan Braniste">
@@ -11,87 +12,207 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
-        <div class="header">
-            <div class="nav">
-                <h2 class="navTitle"><b>eShop</b></h2>
+
+    <div class="header">
+        <div class="nav">
+            <h2 class="navTitle"><b>eShop</b></h2>
+            <ul class="navButtons">
                 <button id="navBtn"><i>Home</i></button>
-                <button id="navBtn"><i>Shop</i></button>
-                <button id="navBtn"><i>Cart</i></button>
-            </div>
+                <a href="https://darwin.md/" id="navBtn"><i>Shop</i></a>
+                <a href="#products" id="navBtn"><i>Products</i></a>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 style="color: white;"><u><mark style="background-color: black; color: white "> Offers: </mark></u></h1>
+        <br>
+        <div class="news">
+            <img class="newsImg" src="assets/img/brave_pb4zHo19mO.png" alt="imaginePromo">
+        </div>
+    </div>
+
+    <div class="products" id="products">
+        <div class="product" id="product1">
+            <img class="productImg" src="assets/img/image.png" alt="imagineProdus" width="300" height="300">
+            <h3 class="productName">Product name</h3>
+            <p class="productPrice"><strong>Price</strong></p>
+            <button class="productBtn"><em>Add to cart</em></button>
+        </div>
+        <div class="product" id="product2">
+            <img class="productImg" src="assets/img/image.png" alt="imagineProdus" width="300" height="300">
+            <h3 class="productName">Product name</h3>
+            <p class="productPrice"><strong>Price</strong></p>
+            <button class="productBtn"><em>Add to cart</em></button>
+        </div>
+        <div class="product" id="product3">
+            <img class="productImg" src="assets/img/image.png" alt="imagineProdus" width="300" height="300">
+            <h3 class="productName">Product name</h3>
+            <p class="productPrice"><strong>Price</strong></p>
+            <button class="productBtn"><em>Add to cart</em></button>
         </div>
 
-        <div class="content">
-            <h1 style="color: white;"><u><mark style="background-color: black; color: white "> Offers: </mark></u></h1>
-            <br> 
-            <div class="news">
-                <img class="newsImg" src="assets/img/brave_pb4zHo19mO.png">
-            </div>
-        </div>
+    </div>
 
-        <div class="products"> 
-            <div class="product" id="product1">
-                <img class="productImg" src="https://placehold.co/300x300">
-                <h3 class="productName">Product name</h3>
-                <p class="productPrice"><strong>Price</strong></p>
-                <button class="productBtn"><em>Add to cart</em></button>
-            </div>
-            <div class="product" id="product2">
-                <img class="productImg" src="https://placehold.co/300x300">
-                <h3 class="productName">Product name</h3>
-                <p class="productPrice"><strong>Price</strong></p>
-                <button class="productBtn"><em>Add to cart</em></button>
-            </div>
-            <div class="product" id="product3">
-                <img class="productImg" src="https://placehold.co/300x300">
-                <h3 class="productName">Product name</h3>
-                <p class="productPrice"><strong>Price</strong></p>
-                <button class="productBtn"><em>Add to cart</em></button>
-            </div>
-            
-        </div>
+    <div class="pasiDeUtilizare">
+        <h2>How to use and useful definitions:</h2>
+        <ol class="list">
+            <li>Click on the "Shop" button</li>
+            <li>Click on the "Cart" button</li>
+            <li>Click on the "Add to cart" button</li>
+            <li>Procces the payment in the cart tab</li>
+            <li>Click on the "Checkout" button</li>
+            <li>Click on the "Pay" button</li>
+            <li>Click on the "Confirm" button</li>
+            <li>Click on the "Order" button</li>
+            <li>Procces the order delivery info</li>
+        </ol>
+        <hr>
+        <dl>
+            <dt><b>Shop</b></dt>
+            <dd>The section where you browse products.</dd>
+            <br>
+            <dt><b>Cart</b></dt>
+            <dd>A place where selected products are stored before checkout.</dd>
+            <br>
+            <dt><b>Checkout</b></dt>
+            <dd>The step where you provide payment and delivery details.</dd>
+            <br>
+            <dt><b>Order</b></dt>
+            <dd>The final confirmation of your purchase.</dd>
+            <br>
+        </dl>
+    </div>
 
-        
-        <div class="aboutUs"> 
-            <h2>About Us</h2>
-            <p>
-                Welcome to <b>eShop</b>, the best place for <small>everyday shopping</small>
-            </p>
-            <p>
-                We started in 2020<sup>th</sup> and continue to grow every year. 
-                Our first location was in sector 3<sub>B</sub>.
-            </p>
-            <p>
-                Our motto used to be <del>"Expensive but rare"</del> 
-                and now we say <ins>"Cheap and everywhere"</ins>.
-            </p>
-            <p>
-                A customer once said: <q>This shop really changed how I buy online!</q>
-            </p>
-            <blockquote>
-                We believe shopping should be fast, simple, and enjoyable for everyone.
-            </blockquote>
-        
-            <p>
-                Example of code we use for discounts:
-                <code>if(price &gt; 100) { discount = 0.2; }</code>
-            </p>
-            <pre>
+    <div class="media">
+        <h2>Media</h2>
+
+        <audio controls preload="metadata">
+            <source src="assets/audio/ba-dum-tss-8279.mp3" type="audio/mpeg">
+            <source src="assets/audio/background.ogg" type="audio/ogg">
+            Browserul tău nu suportă elementul <code>audio</code>. <a href="assets/audio/background.mp3">Descarcă
+                audio</a>.
+        </audio>
+    </div>
+
+    <div class="aboutUs">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <b>eShop</b>, the best place for <small>everyday shopping</small>
+        </p>
+        <p>
+            We started in 2020<sup>th</sup> and continue to grow every year.
+            Our first location was in sector 3<sub>B</sub>.
+        </p>
+        <p>
+            Our motto used to be <del>"Expensive but rare"</del>
+            and now we say <ins>"Cheap and everywhere"</ins>.
+        </p>
+        <p>
+            A customer once said: <q>This shop really changed how I buy online!</q>
+        </p>
+        <blockquote>
+            We believe shopping should be fast, simple, and enjoyable for everyone.
+        </blockquote>
+
+        <p>
+            Example of code we use for discounts:
+            <code>if(price &gt; 100) { discount = 0.2; }</code>
+        </p>
+        <pre>
         function addToCart(product) {
             console.log("Added:", product);
         }
             </pre>
-            <p>
-                To add a product quickly, press <kbd>Ctrl</kbd> + <kbd>A</kbd>.  
-                The system will respond with <samp>Product added to cart successfully</samp>.
-            </p>
-        </div>  
+        <p>
+            To add a product quickly, press <kbd>Ctrl</kbd> + <kbd>A</kbd>.
+            The system will respond with <samp>Product added to cart successfully</samp>.
+        </p>
+    </div>
 
+    <div class="table" style="justify-self: center;">
+        <h2>Tabel</h2>
 
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Produs</th>
+                <th>Caracteristici</th>
+                <th>Preț</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Laptop Gaming</td>
+                <td>Procesor Intel i7</td>
+                <td rowspan="2">4500 MDL</td>
+            </tr>
+            <tr>
+                <td>16GB RAM, 512GB SSD</td>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td colspan="2">Ecran 6.5", 128GB stocare, Cameră 48MP – 2500 MDL</td>
+            </tr>
+            <tr>
+                <td>Căști Wireless</td>
+                <td>Baterie 20h, Bluetooth 5.0</td>
+                <td>300 MDL</td>
+            </tr>
+        </table>
+    </div>
 
+    <div class="YTsiGoogle">
+        <h2>Videoclip Promo</h2>
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UHgos9wIeeY?si=YuGgN3uaS5lIVMh3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-        <div class="footer">Footer 2025 all legal rights are reserved</div>
-    
+            </iframe>
+        </div>
+
+        <h2>Ne găsești aici:</h2>
+        <div class="map-wrapper">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d439.53169223792884!2d28.840734162507104!3d47.01809845404951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c313a62be03%3A0xcf051884b288e0d4!2sDarwin!5e1!3m2!1sen!2s!4v1758571914149!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="formularContact">
+        <form style="text-align: center;">
+            <h2>Formular de contact</h2>
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" required></textarea>
+
+            <label for="acceptTerms">Accept terms</label>
+            <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+
+            <label for="options">Options:</label>
+            <div class="options" style="display: flex; justify-content: center;">
+                <input type="radio" id="options1" name="options" value="1" required>Plangere</input>
+                <input type="radio" id="options2" name="options" value="2" required>Intrebare</input>
+            </div>
+
+            <input type="submit" value="Trimite" style="display: block; margin: 0 auto;">
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Footer 2025 all legal rights are reserved</p>
+        <p><a href="mailto:contact@eshop.com">contact@eshop.com</a></p>
+    </div>
+
 </body>
+
 </html>
